@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 
 @media(min-width: 1025px) and (max-width:1440px){

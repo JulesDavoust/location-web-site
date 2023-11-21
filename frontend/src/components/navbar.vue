@@ -119,7 +119,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 .btn-menu-locations{
   width:100%;

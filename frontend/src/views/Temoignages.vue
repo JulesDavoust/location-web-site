@@ -43,59 +43,6 @@
     object-fit: cover;
   }
 
-  @media (max-width: 700px) {
-    .{
-      grid-column-start: 1;
-      grid-column-end: 4;
-      grid-row-start: 1;
-      grid-row-end: 3;
-    }
-
-    .box2{
-      grid-column-start: 4;
-      grid-column-end: 8;
-      grid-row-start: 1;
-      grid-row-end: 3;
-    }
-
-    .box3{
-      grid-column-start: 1;
-      grid-column-end: 5;
-      grid-row-start: 3;
-      grid-row-end: 4;
-    }
-
-    .box4{
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 3;
-      grid-row-end: 4;
-    }
-
-    .box5{
-      grid-column-start: 1;
-      grid-column-end: 4;
-      grid-row-start: 4;
-      grid-row-end: 6;
-    }
-
-    .box6{
-      grid-column-start: 4;
-      grid-column-end: 8;
-      grid-row-start: 4;
-      grid-row-end: 5;
-    }
-
-    .box7{
-      grid-column-start: 4;
-      grid-column-end: 8;
-      grid-row-start: 5;
-      grid-row-end: 6;
-    }
-  }
-
-
-
   @media (min-width: 700px) {
     .card1{
       grid-column-start: 3;
