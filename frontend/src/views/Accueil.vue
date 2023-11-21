@@ -147,6 +147,7 @@ export default {
   },
 
   mounted(){
+    this.checkScreenSize()
     this.accueil_reset = localStorage.getItem("accueil_reset")
     window.addEventListener('resize', this.checkScreenSize);
   },

@@ -108,6 +108,7 @@ export default {
   },
 
   mounted(){
+    this.checkScreenSize()
     this.showMenu = localStorage.getItem("showMenu")
     window.addEventListener('resize', this.checkScreenSize);
   },

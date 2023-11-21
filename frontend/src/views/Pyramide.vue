@@ -385,6 +385,7 @@ export default {
     }
   },
   mounted(){
+    this.checkScreenSize()
     this.showMenuRoom = localStorage.getItem("showMenuRoom")
     window.addEventListener('resize', this.checkScreenSize);
   },
