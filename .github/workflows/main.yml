@@ -13,7 +13,7 @@ jobs:
       - name: Set Timestamp
         run: echo "TIMESTAMP=$(date +'%Y-%m-%d_%Hh%M')" >> $GITHUB_ENV
       - name: Build frontend image
-        run: docker build -t front-image .
+        run: cd frontend && docker build -t front-image .
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
